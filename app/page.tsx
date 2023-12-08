@@ -1,10 +1,4 @@
 import React from "react";
-import {
-  HoverCard,
-  HoverCardContent,
-  HoverCardTrigger,
-} from "@/components/ui/hover-card";
-import Image from "next/image";
 import Link from "next/link";
 import SideIcons from "@/components/SideIcons";
 import ProfileComp from "@/components/ProfileComp";
@@ -17,7 +11,7 @@ export default function Home() {
       <Toaster />
       <SideIcons />
       <main className="w-screen h-screen text-white flex items-center p-24  flex-col bg-black ">
-        <div className="jumbo -inset-[10px] absolute opacity-50"></div>
+        <div className="jumbo  -inset-[10px] absolute opacity-50"></div>
 
         <ProfileComp />
         <div className="flex-col mt-[200px] mb-[100px] align-center justify-center">
